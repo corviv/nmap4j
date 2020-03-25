@@ -218,6 +218,11 @@ public class BaseScan implements IScan {
    public void addFlag(Flag flag) {
      argProps.addFlag( flag ) ;
    }
+
+  @Override
+  public void addFlag(Flag flag, String value) {
+    argProps.addFlag( flag, value ) ;
+  }
    
    @Override
    public void removeFlag(Flag flag) {

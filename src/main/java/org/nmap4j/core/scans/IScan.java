@@ -188,6 +188,11 @@ public interface IScan {
    * Adds the specified flag to the underlying ArgumentProperties object. 
    */
   public void addFlag( Flag flag ) ;
+
+  /**
+   * Adds the specified flag and value to the underlying ArgumentProperties object.
+   */
+  public void addFlag( Flag flag, String value ) ;
   
   /**
    * Removes the specified flag from the underlying ArgumentProperties object.
