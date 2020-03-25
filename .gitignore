@@ -3,7 +3,23 @@ build
 dist
 javadocs
 .settings
-target
+
+# Compiled class file
 *.class
-.idea
+
+# Intellij Idea files
 *.iml
+.idea
+outclasses
+target
+test-output
+
+# Log file
+*.log
+
+# Manifests
+*.MF
+MANIFEST
+/MANIFEST.MF
+**/MANIFEST.MF
+**/MANIFEST.*
