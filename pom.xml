@@ -39,7 +39,7 @@
                 <version>2.22.2</version>
                 <configuration>
                     <forkMode>pertest</forkMode>
-                    <argLine>-Xms1024m -Xmx1024m -XX:PermSize=256m -XX:MaxPermSize=256m</argLine>
+                    <argLine>-Xms1024m -Xmx1024m</argLine>
                     <testFailureIgnore>false</testFailureIgnore>
                 </configuration>
             </plugin>
